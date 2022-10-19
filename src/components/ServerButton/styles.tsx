@@ -20,10 +20,14 @@ export const Button = styled.button<Props>`
     position: relative;
 
     border-radius: 50%;
+    border: 2px solid var(--primary);
 
     > img {
         width: 24px;
         height: 24px;
+        & svg {
+            & path { fill: orange; }
+        }    
     }
 
     &::before {
@@ -47,7 +51,7 @@ export const Button = styled.button<Props>`
         right: -4px;
 
         border-radius: 12px;
-        border: 4px solid var(--quaternaty);
+        border: 2px solid var(--quaternary);
         text-align: right;
         font-size: 13px;
         font-weight: bold;

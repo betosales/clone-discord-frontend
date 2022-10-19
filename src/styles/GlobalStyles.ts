@@ -8,13 +8,13 @@ export default createGlobalStyle`
 
     html, body, #root {
         height: 100%;
+        font-family: 'Roboto', sans-serif;
 
     }
 
     *, :no-button, input {
         border: 0;
         outline: 0;
-        font-family: 'Roboto', sans-serif;
     }
 
     :root {

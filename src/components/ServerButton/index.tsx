@@ -14,12 +14,15 @@ export interface Props {
 export const ServerButton: React.FC<Props> = ({
     selected, isHome, hasNotifications, mentions
 }) => {
-    return (<Button
-        isHome={isHome}
-        hasNotifications={hasNotifications}
-        mentions={mentions}
-        className={selected ? 'active' : ''}
-    >
-        {isHome && <img src={Logo} alt="Rocketseat" />}
-    </Button>);
+    return (
+        <Button
+            isHome={isHome}
+            hasNotifications={hasNotifications}
+            mentions={mentions}
+            className={selected ? 'active' : ''}
+            aria-label={`${mentions} menções`} 
+        >
+            {isHome && <img src={Logo} alt="Rocketseat" />}
+        </Button>
+    );
 }
