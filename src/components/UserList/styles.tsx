@@ -22,6 +22,8 @@ export const Container = styled.div`
         background-color: var(--secondary);
 
     }
+
+    cursor: default;
 `;
 
 export const Role = styled.span`
