@@ -17,6 +17,8 @@ export const Category = styled.div`
     justify-content: space-between;
     margin-bottom: 6px;
 
+    cursor: default;
+
     > span {
         text-transform: uppercase;
         font-size: 12px;
