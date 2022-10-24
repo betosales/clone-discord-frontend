@@ -7,6 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--primary);
+    max-height: calc(100vh -  46px);
 
 `;
 
